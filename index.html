@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Project TERA</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+    </head>
+    <!-- BODY -->
+    <body>
+        <nav>
+            <ol>
+                <li><img src="assets/logo-biol.png" width="300" height="50" alt="Logo da empresa BIOL"></li>
+                <li>Planos</li> 
+                <li>Agendamentos</li> 
+                <li>Login</li>
+                <LI>Sobre nós</LI>                
+            </ol>
+        </nav>
+        <main>
+            <!-- main: principal. tag semântica que indica onde guardamos informações principais do site -->
+            <header id="perfil-container">
+                <div class="texto">
+                    <h1>Telemedicina Quando Você Mais Precisa</h1>
+                    <h2> 24 horas por dia, de qualquer lugar</h2>
+                    <button class="botao-inicial">Inscreva-se</button>
+                </div>
+                <div class="imagem">
+                    <img src="https://static.wixstatic.com/media/84770f_b6a52e9ac3ba4717ad8c8575375d0c12~mv2.jpg/v1/fill/w_1988,h_1652,al_c,q_90,usm_0.66_1.00_0.01/84770f_b6a52e9ac3ba4717ad8c8575375d0c12~mv2.webp">
+                </div>
+
+        </main>
+        <section class="video">
+            <div>
+            <h3 id="h3-video">Assista ao video informativo.</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h9nK9fUZb4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!-- Fotter -->
+        <footer>
+            <div id="contato">
+                <h3>vamos trabalhar juntos?</h3>
+                <h4>envie uma mensagem.</h4>
+            </div>
+            <div id="infos">
+                <div id="email">
+                    <a href="#">leotelles07@gmail.com</a>
+                    <img src="./assets/icons/seta.png" alt="Ícone de seta">
+                </div>
+                <div id="redes-sociais">
+                    <div>
+                        <a href="#"><img src="./assets/icons/facebook.png" alt="Logo Facebook"></a>
+                        <a href="#"><img src="./assets/icons/instagram.png" alt="Logo Instagram"></a>
+                        <a href="#"><img src="./assets/icons/github.png" alt="Logo Github"></a>
+                        <a href="#"><img src="./assets/icons/behance.png" alt="Logo Behance"></a>
+                    </div>
+                </div>
+                <h3 class="cidade">São Paulo • Brasil</h3>
+            </div>
+        </footer>
+        <button id="botao-topo" onclick="voltarParaTopo()">
+            <img src="./assets/icons/up-arrow.png" alt="Símbolo de seta apontando para cima">
+        </button>
+        <script src="script.js" defer></script>
+    </body>
+</html>
